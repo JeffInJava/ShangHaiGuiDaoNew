@@ -1,0 +1,2 @@
+include ':app', ':android-pdfview', ':android-pdf-viewer', ':indexlib', ':myapplication'
+

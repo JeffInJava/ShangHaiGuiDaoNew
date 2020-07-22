@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_bg">#902b2b34</color>
+    <color name="color_seperate">#dad6d7</color>
+    <color name="color_text_pro">#008fdb</color>
+    <color name="color_bg">#EAEAEA</color>
+    <color name="color_selected">#008fdd</color>
+    <color name="color_unselected">#dad6d5</color>
+    <color name="color_text_unselected">#868485</color>
+    <color name="color_text_guide_selected">#008FDC</color>
+    <color name="color_text_guide_unselected">#333333</color>
+    <color name="color_spinner_unselect">#ABABAB</color>
+    <color name="bottom_btn_unpressed">#c5c5c5</color>
+    <color name="bottom_btn_pressed">#f0f0f0</color>
+    <color name="red">#dd091f</color>
+    <color name="white">#fff</color>
+    <color name="white_gray">#5fffffff</color>
+    <color name="black">#444</color>
+    <color name="gray">#999999</color>
+    <color name="btn_pressed">#0271B8</color>
+    <color name="bg">#F4F4F4</color>
+    <color name="title_bg">#027DCB</color>
+    <color name="main_text_color">#0172B8</color>
+    <color name="main_text_unckeck_color">#303030</color>
+    <color name="search_bg">#F4F4F4</color>
+    <color name="orange">#F7B53A</color>
+    <color name="blue">#026FB4</color>
+    <color name="green">#19AD19</color>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="partTranslucent">#39000000</color>
+</resources>

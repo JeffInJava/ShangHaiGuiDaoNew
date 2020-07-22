@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ShangHaiGuiDaoNew.iml" filepath="$PROJECT_DIR$/ShangHaiGuiDaoNew.iml" group="ShangHaiGuiDaoNew" />
+      <module fileurl="file://$PROJECT_DIR$/android-pdf-viewer/android-pdf-viewer.iml" filepath="$PROJECT_DIR$/android-pdf-viewer/android-pdf-viewer.iml" group="ShangHaiGuiDaoNew/android-pdf-viewer" />
+      <module fileurl="file://$PROJECT_DIR$/android-pdfview/android-pdfview.iml" filepath="$PROJECT_DIR$/android-pdfview/android-pdfview.iml" group="ShangHaiGuiDaoNew/android-pdfview" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ShangHaiGuiDaoNew/app" />
+      <module fileurl="file://$PROJECT_DIR$/indexlib/indexlib.iml" filepath="$PROJECT_DIR$/indexlib/indexlib.iml" group="ShangHaiGuiDaoNew/indexlib" />
+      <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" group="ShangHaiGuiDaoNew/myapplication" />
+    </modules>
+  </component>
+</project>

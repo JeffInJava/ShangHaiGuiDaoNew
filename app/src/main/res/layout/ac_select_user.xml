@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/layout_title"
+        layout="@layout/layout_title" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/rl_user"
+        android:layout_below="@+id/layout_title"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/edit_search_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true" >
+
+            <ImageView
+                android:id="@+id/img_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/edit_search_img"
+                />
+
+            <EditText
+                android:id="@+id/edit_search_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@id/img_search"
+                android:background="@null"
+                android:textSize="20dp" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <Button
+        android:id="@+id/bt_select_user"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/title_bg"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="确定"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_checkall"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rl_user"
+        android:layout_height="40dp">
+        <CheckBox
+            android:id="@+id/lac_user_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/checkbox_bg"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:focusable="false"
+            android:clickable="false"
+            android:visibility="visible" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/lac_user_checkbox"
+            android:layout_centerVertical="true"
+            android:text="全选"
+            android:textSize="22sp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/black"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E5E5E5"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rl_checkall"
+        android:layout_above="@id/bt_select_user"
+        >
+
+
+        <com.mcxtzhang.indexlib.IndexBar.widget.IndexBar
+            android:id="@+id/indexBar"
+            android:layout_width="24dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:indexBarPressBackground="@color/partTranslucent"
+            app:indexBarTextSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/tvSideBarHint"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_side_bar_bg"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="48sp"
+            android:visibility="gone"
+            tools:text="A"
+            tools:visibility="visible"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

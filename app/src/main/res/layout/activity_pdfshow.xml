@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+     >
+
+    <include
+        android:id="@+id/layout_head"
+        layout="@layout/layout_title" />
+    <!-- 底部按钮 -->
+
+    <LinearLayout
+        android:id="@+id/layout_pdfShow_buttomBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@color/bottom_btn_unpressed"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:id="@+id/btn_pdfShow_previous"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_pdfview_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一页"
+                android:textColor="@color/gray"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/iv_pdfview_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/tv_pdfview_last"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/lastpage_gray"/>
+            <!--<Button-->
+                <!--android:id="@+id/btn_pdfShow_previous"-->
+                <!--style="@style/FileBottomBtnStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="2"-->
+                <!--android:drawableLeft="@drawable/lastpage_gray"-->
+                <!--android:text="@string/str_previous_page" />-->
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_page"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+             />
+        <RelativeLayout
+            android:id="@+id/btn_pdfShow_next"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/tv_pdfview_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下一页"
+                android:textColor="@color/gray"
+                android:layout_centerInParent="true"/>
+            <ImageView
+                android:id="@+id/iv_pdfview_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_pdfview_next"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/nextpage_gray"/>
+            <!--<Button-->
+                <!--android:id="@+id/btn_pdfShow_next"-->
+                <!--style="@style/FileBottomBtnStyle"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="2"-->
+                <!--android:drawableRight="@drawable/nextpage_gray"-->
+                <!--android:text="@string/str_next_page" />-->
+        </RelativeLayout>
+
+
+
+        <!--<View-->
+            <!--android:layout_width="2dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:background="@android:color/white" />-->
+
+
+
+        <!--<View-->
+            <!--android:layout_width="2dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:background="@android:color/white" />-->
+
+
+    </LinearLayout>
+
+    <!-- PDFViewer -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_pdfShow_buttomBtn"
+        android:layout_below="@id/layout_head">
+
+        <com.joanzapata.pdfview.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_pdf_background"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_pdfview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:id="@+id/tv_pdfview_id"
+            android:layout_above="@id/tv_pdfview_name"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

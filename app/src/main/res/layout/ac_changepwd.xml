@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    >
+    <include layout="@layout/layout_title"/>
+
+
+    <LinearLayout
+        android:id="@+id/layout_loginInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/login_pwd"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <!--<ImageView-->
+            <!--android:id="@+id/img_user"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="50dp"-->
+            <!--android:src="@drawable/icon_u" />-->
+
+            <EditText
+                style="@style/LoginEditText"
+                android:id="@+id/edit_old"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:layout_marginLeft="25dp"
+                android:hint="请输入旧密码"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <!--<View -->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/color_seperate"/>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/login_pwd"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+
+            <EditText
+                style="@style/LoginEditText"
+                android:id="@+id/edit_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:hint="请输入新密码"
+                android:inputType="numberPassword"
+                android:singleLine="true"
+                android:gravity="center" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/btn_login" />
+
+
+
+
+</LinearLayout>

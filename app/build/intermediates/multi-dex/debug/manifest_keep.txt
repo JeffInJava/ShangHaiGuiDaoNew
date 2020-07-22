@@ -1,0 +1,3 @@
+# Referenced at C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:21
+-keep class androidPT.ptUtil.MyApplication { <init>(...); }
+

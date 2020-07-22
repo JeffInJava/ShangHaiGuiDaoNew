@@ -1,0 +1,261 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [:android-pdf-viewer] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\android-pdf-viewer\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\bde2f5c3ecab8fdd9d421cbb80688082\AndroidManifest.xml:17:1-22:12
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\6468caafd12641f9082b79eee42641cc\AndroidManifest.xml:2:1-14:12
+MERGED from [com.joanzapata.pdfview:android-pdfview:1.0.4] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\android-pdfview-1.0.4.aar\2cd1e62b44ecfb5026931e2806fe79d8\AndroidManifest.xml:20:119-25:12
+MERGED from [com.orhanobut:logger:1.15] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\logger-1.15.aar\2c230137ab75c9f15a3bc1130e0c35a6\AndroidManifest.xml:2:1-8:12
+MERGED from [:indexlib] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\a847e09632a55fe74e1ee210e0a7fb25\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.barteksc:pdfium-android:1.6.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.6.1.aar\aedc9ad3eb3b5a5322b75e5d3bfb1bbd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\ed3e8558dd5d635ee1ff9d2b8a975cda\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\7029522b4d894228ccb0082fccb25ad3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\aefb1c6057ad37d77612f52aa6439cb8\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\3558abe58db7d1fe5d15071fcef568bd\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\90cfb3c270fa05f040f9ebc3a614b8c8\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [:android-pdf-viewer] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\android-pdf-viewer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:android-pdf-viewer] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\android-pdf-viewer\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\bde2f5c3ecab8fdd9d421cbb80688082\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\bde2f5c3ecab8fdd9d421cbb80688082\AndroidManifest.xml:20:5-43
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\6468caafd12641f9082b79eee42641cc\AndroidManifest.xml:8:5-10:41
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\6468caafd12641f9082b79eee42641cc\AndroidManifest.xml:8:5-10:41
+MERGED from [com.joanzapata.pdfview:android-pdfview:1.0.4] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\android-pdfview-1.0.4.aar\2cd1e62b44ecfb5026931e2806fe79d8\AndroidManifest.xml:23:2-69
+MERGED from [com.joanzapata.pdfview:android-pdfview:1.0.4] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\android-pdfview-1.0.4.aar\2cd1e62b44ecfb5026931e2806fe79d8\AndroidManifest.xml:23:2-69
+MERGED from [com.orhanobut:logger:1.15] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\logger-1.15.aar\2c230137ab75c9f15a3bc1130e0c35a6\AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:1.15] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\logger-1.15.aar\2c230137ab75c9f15a3bc1130e0c35a6\AndroidManifest.xml:6:5-43
+MERGED from [:indexlib] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:indexlib] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\a847e09632a55fe74e1ee210e0a7fb25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\a847e09632a55fe74e1ee210e0a7fb25\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:21:5-23:62
+MERGED from [com.github.barteksc:pdfium-android:1.6.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.6.1.aar\aedc9ad3eb3b5a5322b75e5d3bfb1bbd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.barteksc:pdfium-android:1.6.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\pdfium-android-1.6.1.aar\aedc9ad3eb3b5a5322b75e5d3bfb1bbd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\ed3e8558dd5d635ee1ff9d2b8a975cda\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\ed3e8558dd5d635ee1ff9d2b8a975cda\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\7029522b4d894228ccb0082fccb25ad3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\7029522b4d894228ccb0082fccb25ad3\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\aefb1c6057ad37d77612f52aa6439cb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\aefb1c6057ad37d77612f52aa6439cb8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\3558abe58db7d1fe5d15071fcef568bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\3558abe58db7d1fe5d15071fcef568bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\90cfb3c270fa05f040f9ebc3a614b8c8\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\90cfb3c270fa05f040f9ebc3a614b8c8\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:15:5-72
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:15:22-70
+application
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:17:5-70:19
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\6468caafd12641f9082b79eee42641cc\AndroidManifest.xml:12:5-20
+MERGED from [org.xutils:xutils:3.5.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\xutils-3.5.0.aar\6468caafd12641f9082b79eee42641cc\AndroidManifest.xml:12:5-20
+MERGED from [:indexlib] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [:indexlib] C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\indexlib\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-20
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\a847e09632a55fe74e1ee210e0a7fb25\AndroidManifest.xml:11:5-20
+MERGED from [com.github.mcxtzhang:SwipeDelMenuLayout:V1.2.2] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\SwipeDelMenuLayout-V1.2.2.aar\a847e09632a55fe74e1ee210e0a7fb25\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\1fae61f3e9f3b232b23b19fb9d1db68c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\ed3e8558dd5d635ee1ff9d2b8a975cda\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\ed3e8558dd5d635ee1ff9d2b8a975cda\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\aefb1c6057ad37d77612f52aa6439cb8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\aefb1c6057ad37d77612f52aa6439cb8\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\3558abe58db7d1fe5d15071fcef568bd\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\3558abe58db7d1fe5d15071fcef568bd\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\90cfb3c270fa05f040f9ebc3a614b8c8\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\90cfb3c270fa05f040f9ebc3a614b8c8\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:20:9-42
+	android:allowBackup
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:19:9-36
+	android:theme
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:22:9-56
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:18:9-54
+activity#com.ineasnet.shanghaiguidao2.activity.StartActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:23:9-32:20
+	android:screenOrientation
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:26:13-49
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:25:13-45
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:24:13-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.ineasnet.shanghaiguidao2.activity.LoginActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:33:9-37:20
+	android:screenOrientation
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:35:13-57
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:34:13-51
+activity#com.ineasnet.shanghaiguidao2.activity.MainActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:38:9-43:20
+	android:screenOrientation
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:41:13-49
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:40:13-56
+	android:launchMode
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:42:13-44
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:39:13-50
+receiver#androidPT.ptUtil.internet.NetCheckReceiver
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:45:9-51:20
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:47:13-46
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:46:13-70
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:48:13-50:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:49:17-79
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:49:25-76
+service#com.ineasnet.shanghaiguidao2.service.DownloadService
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:53:9-60
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:53:18-57
+activity#com.ineasnet.shanghaiguidao2.activity.DownloadListActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:57:13-65
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:56:13-58
+activity#com.ineasnet.shanghaiguidao2.activity.ReadStatusActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:61:13-63
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:60:13-84
+activity#com.ineasnet.shanghaiguidao2.activity.UserCheckActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:63:9-64
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:63:19-61
+activity#com.ineasnet.shanghaiguidao2.activity.UserSelectActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:65:9-65
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:65:19-62
+activity#com.ineasnet.shanghaiguidao2.activity.PDFNewActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:66:9-67:71
+	android:theme
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:67:13-69
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:66:19-58
+activity#com.ineasnet.shanghaiguidao2.activity.SelectUserActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:68:9-65
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:68:19-62
+activity#com.ineasnet.shanghaiguidao2.activity.UserCheckAddActivity
+ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:69:9-67
+	android:name
+		ADDED from C:\Users\java9\AndroidStudioProjects\ShangHaiGuiDaoNew\app\src\main\AndroidManifest.xml:69:19-64
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\5424489649791b51244bf3bbb83ad03b\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\ad0578098dddfedc1bf12f93d11c05f6\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\365618a2b548534cd0d1a15402f9edf9\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\a99669f49d0ababe2c2bc53023b24923\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\39e6e3f013c439e9c7f9cdd63573bb42\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:support-v4:25.3.1] C:\Users\java9\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\7d0276a6444707c5e0b3abd869f7cb09\AndroidManifest.xml:26:9-47

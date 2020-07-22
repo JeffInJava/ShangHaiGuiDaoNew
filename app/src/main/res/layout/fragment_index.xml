@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <include
+            android:id="@+id/layout_search"
+            layout="@layout/layout_file_search" />
+        <HorizontalScrollView
+            android:id="@+id/hScroll_guide"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="@android:color/white"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/layout_guide"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal" >
+                
+                <TextView 
+                    android:id="@+id/tv_guide_index"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="20dp"
+                    android:text="首页  /"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_main_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/layout_top"
+        android:background="@drawable/index_bg_new"
+        >
+
+        <ScrollView
+            android:id="@+id/sv_index"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/layout_top"
+            android:layout_margin="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/white_gray">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="企业标准"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="20dp"/>
+                </RelativeLayout>
+                <com.ineasnet.shanghaiguidao2.view.MyGridView
+                    android:id="@+id/gridview_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:numColumns="3"
+                    android:stretchMode="columnWidth"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/white_gray">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="作业指导书"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="20dp"/>
+                </RelativeLayout>
+                <com.ineasnet.shanghaiguidao2.view.MyGridView
+                    android:id="@+id/gridview_content2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <GridView
+            android:id="@+id/gridview_sec_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_top"
+            android:horizontalSpacing="1dp"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:visibility="gone"
+            android:verticalSpacing="1dp" />
+
+        <ListView
+            android:id="@+id/listview_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_top"
+            android:divider="@color/color_seperate"
+            android:dividerHeight="1dp"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listview_indexSearch_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_top"
+            android:divider="@color/color_seperate"
+            android:dividerHeight="1dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+</RelativeLayout>
